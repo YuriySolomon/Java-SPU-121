@@ -1,6 +1,7 @@
 package step.learning;
 
 import step.learning.eventone.TicTacToe;
+import step.learning.oop.Library;
 
 public class App
 {
@@ -9,7 +10,8 @@ public class App
         //new Variables().demo();
         //new ArraysLoops().demo();
         //new Collections().demo();
-        new TicTacToe().main();
+        //new TicTacToe().main();
+        new Library().demo();
 
     }
 }

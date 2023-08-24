@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b15993d1-90f9-4e1a-8906-560cb9d2a15f" name="Changes" comment="TicTacToe">
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Booklet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Copyable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Journal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Literature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Newspaper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Periodic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Poster.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -22,11 +33,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -84,7 +95,8 @@
       <workItem from="1689973343357" duration="937000" />
       <workItem from="1689974315576" duration="41516000" />
       <workItem from="1691081272185" duration="12743000" />
-      <workItem from="1692028910117" duration="27651000" />
+      <workItem from="1692028910117" duration="28183000" />
+      <workItem from="1692425356192" duration="28720000" />
     </task>
     <task id="LOCAL-00001" summary="TicTacToe">
       <option name="closed" value="true" />
@@ -94,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692305637590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="TicTacToe">
+      <option name="closed" value="true" />
+      <created>1692306695704</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692306695704</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
