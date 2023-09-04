@@ -1,6 +1,11 @@
 package step.learning;
 
+import com.google.inject.Guice;
+import com.google.inject.Injector;
+import step.learning.db.DbApp;
 import step.learning.eventone.TicTacToe;
+import step.learning.ioc.ConfigModule;
+import step.learning.ioc.IocApp;
 import step.learning.oop.Library;
 
 public class App
@@ -11,8 +16,10 @@ public class App
         //new ArraysLoops().demo();
         //new Collections().demo();
         //new TicTacToe().main();
-        new Library().demo();
-
+        //new Library().demo();
+        Injector injector = Guice.createInjector(new ConfigModule());
+        //injector.getInstance(IocApp.class).demo();
+        injector.getInstance(DbApp.class).demo();
     }
 }
 /*

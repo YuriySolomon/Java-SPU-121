@@ -5,16 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b15993d1-90f9-4e1a-8906-560cb9d2a15f" name="Changes" comment="TicTacToe">
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Booklet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Copyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Journal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Literature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Newspaper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Periodic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/oop/Poster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/db/DbApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/db/dao/RandomDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/db/dto/RandomRecord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/ConfigModule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/HashService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/IocApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/Md5HashService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/ioc/ShaHashService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/services/random/RandomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/step/learning/services/random/RandomServiceV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/step/learning/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/step/learning/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,22 +59,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="step.learning" />
@@ -96,7 +107,8 @@
       <workItem from="1689974315576" duration="41516000" />
       <workItem from="1691081272185" duration="12743000" />
       <workItem from="1692028910117" duration="28183000" />
-      <workItem from="1692425356192" duration="28720000" />
+      <workItem from="1692425356192" duration="29625000" />
+      <workItem from="1692997823846" duration="44277000" />
     </task>
     <task id="LOCAL-00001" summary="TicTacToe">
       <option name="closed" value="true" />
@@ -114,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1692306695704</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TicTacToe">
+      <option name="closed" value="true" />
+      <created>1692907227420</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1692907227420</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
